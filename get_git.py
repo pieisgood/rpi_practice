@@ -5,7 +5,7 @@ GPIO.setmode(GPIO.BCM)
 
 input_pin = 23
 
-GPIO.setup(input_pin, GPIO.IN, pull_up_down==GPIO.PUD_UP)
+GPIO.setup(input_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 try:
 	while True:
